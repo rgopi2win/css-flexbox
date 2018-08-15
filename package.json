@@ -1,0 +1,14 @@
+{
+  "name": "FlexBox_Webapp",
+  "version": "1.0.1",
+  "description": "To create a webapp using flexbox css properties",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Gopinath Rajendiran",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
