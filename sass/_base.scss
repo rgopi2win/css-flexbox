@@ -1,6 +1,6 @@
 :root {
-    --color-primary-light: #e0cc5b;
-    --color-primary: #d3c051;
+    --color-primary-light: #ceba4a;
+    --color-primary: #c9b335;
     --color-primary-dark: #9c8b28;
 
     --color-grey-light-1: #faf9f9;
@@ -9,8 +9,8 @@
     --color-grey-light-4: #ccc;
 
     --color-grey-dark-1: #333;
-    --color-grey-dark-2: #999;
-    --color-grey-dark-3: #777;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
 
     --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
     ;}
@@ -33,7 +33,7 @@ html {
 
 body {
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.6;
     color: var(--color-grey-dark-2);
     background-image: linear-gradient(to right bottom,
