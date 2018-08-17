@@ -39,13 +39,20 @@
     }
 
     &__input:focus + &__button {
-       background-color: var(--color-grey-light-3
-       );
+       background-color: var(--color-grey-light-3);
     }
 
     &__button {
         border: none;
         background-color: var(--color-grey-light-2);
+
+        &:focus {
+            outline: none;
+        }
+
+        &:active {
+            transform: translateY(2px);
+        }
     }
 
     &__icon {
