@@ -84,7 +84,10 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .logo {
   height: 3.5rem;
@@ -269,8 +272,13 @@ body {
   display: inline-block;
   cursor: pointer;
   transition: all .2s; }
+  .btn-inline span {
+    margin-left: 3px;
+    transition: margin-left .2s; }
   .btn-inline:hover {
     color: var(--color-grey-dark-1); }
+    .btn-inline:hover span {
+      margin-left: 8px; }
   .btn-inline:focus {
     outline: none;
     animation: pulsate 1s infinite; }
@@ -334,9 +342,13 @@ body {
   background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
-  margin-bottom: 3.5rem; }
+  margin-bottom: 3.5rem;
+  position: relative;
+  overflow: hidden; }
   .review__text {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 10; }
   .review__user {
     display: flex;
     align-items: center; }
@@ -357,3 +369,13 @@ body {
   .review__user-rating {
     font-size: 2.2rem;
     color: var(--color-primary); }
+  .review::before {
+    content: "\201C";
+    font-size: 20rem;
+    line-height: 1;
+    position: absolute;
+    font-family: sans-serif;
+    color: var(--color-grey-light-2);
+    top: -2.85rem;
+    left: -1.3rem;
+    z-index: 1; }
