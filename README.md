@@ -3,10 +3,10 @@ The project has created to develop a small webpage using CSS flexbox properties.
 
 ![(./img/pageview.gif)](./img/page-view.gif)
  
- Most of all UI implementation in this project are done using CSS Flexbox properties.
+ The UI implementation of this project is done using CSS Flexbox properties.
  Following are the flexbox properties.
 
-##CSS Flexbox Properties
+## CSS Flexbox Properties
 
 ### Container Properties
 
